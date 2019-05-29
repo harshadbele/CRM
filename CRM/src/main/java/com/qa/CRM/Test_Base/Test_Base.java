@@ -13,17 +13,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import com.qa.CRM.util.Testutil;
 
 public class Test_Base {
-//comment added
+//comment added 
 	public static WebDriver driver;
 	public static Properties prop;
-	public static String src="C:\\Users\\admin\\workspace\\CRM\\src\\main\\"
+	public static String src1="C:\\Users\\admin\\workspace\\CRM\\src\\main\\"
 			+ "java\\com\\qa\\CRM\\config\\config.properties";
 	
 	public Test_Base()
 	{
 
   try{
-		FileInputStream fis=new FileInputStream(src);
+		FileInputStream fis=new FileInputStream(src1);
 		prop=new Properties();
 		prop.load(fis);
 		
